@@ -22,6 +22,7 @@
 }
 
 .calendar-week{
+    /* border: 5px solid red; */
     display: grid;
     grid-template-columns:auto repeat(7,minmax(var(--minInlineSize), var(--maxInlineSize))) ;
     grid-template-rows:7rem repeat(24, minmax(var(--minBlockSize), var(--maxBlockSize)));
@@ -29,6 +30,13 @@
     color: var(--gray20) ;
 }
 
+.calendar-day{
+    display: grid;
+    grid-template-columns:auto repeat(1,minmax(var(--minInlineSize), var(--maxInlineSize))) ;
+    grid-template-rows:7rem repeat(24, minmax(var(--minBlockSize), var(--maxBlockSize)));
+    min-block-size: 700px;
+    color: var(--gray20) ;
+}
 
 
 
