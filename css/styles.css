@@ -8,22 +8,19 @@
 @import "./.css";
 @import "./.css";
 @import "./.css";
-@import "./.css";
-@import "./.css";
-@import "./.css";
-@import "./.css";
-@import "./.css";
-@import "./.css";
-@import "./.css";
-@import "./.css";
-@import "./.css";
-@import "./.css";
-@import "./.css";
-@import "./.css";
-@import "./.css";
-@import "./.css";
+@import "./crate-task.css";
+@import "./input.css";
+@import "./modal.css";
+@import "./calendars.css";
+@import "./people-search.css";
+@import "./mini-calendar.css";
+@import "./header.css";
+@import "./calendar-status.css";
+@import "./select.css";
+@import "./button.css";
+@import "./calendar.css";
+@import "./global.css";
+@import "./page.css";
+@import "./icons.css";
 
 
-body{
-    background-color: #181818;
-}

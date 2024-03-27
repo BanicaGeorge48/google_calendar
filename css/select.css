@@ -1,0 +1,11 @@
+.select{
+    border: 1px solid var(-gray50);
+    background-color: var(--white);
+    color: var(--gray50);
+    padding-inline: .25rem ;
+    padding-block: .5rem;
+    border-radius: .35rem;
+    font: var(--buttom-buttom);
+
+    /* appearance: none; */
+}

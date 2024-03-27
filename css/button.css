@@ -1,0 +1,80 @@
+.button{
+    border: 1px solid transparent;
+    padding-inline:1rem ;
+    padding-block: .5rem;
+    display: inline-block;
+    font: var(--button-button);
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--gray50);
+    background-color: transparent;
+    border-radius:.25rem ;
+    outline: none;
+    user-select: none;
+
+
+}
+
+.button:active{
+    transform: scale(.9);
+}
+
+.button.is-primary{
+    background-color: var(--blue20);
+    border-radius:.25rem ;
+    
+}
+
+.button.is-secondary{
+    border:1px solid var(--gray50) ;
+}
+
+.button.is-primary:hover,
+.button.is-primary:focus{
+    background-color: var(--blue30);
+}
+.button:focus,
+.button:hover,
+.button.is-compact:focus,
+.button.is-compact:hover,
+.button.is-secondary:focus,
+.button.is-secondary:hover,
+.button.is-rounded:hover,
+.button.is-rounded:focus{
+    background-color: var(--gray10);
+}
+
+.button.is-rounded{
+    border: 1px solid var(--gray10);
+    /* background-color: white; */
+    border-radius: 1.25rem;
+    color: var(--blue20);
+}
+.button.is-compact{
+    /* border:1px solid rgb(45, 44, 44) ; */
+    padding: .5rem;
+    border-radius: 50%;
+}
+.button.is-shadowed{
+    box-shadow: 1.0719px 30.9815px 92px rgba(77, 76, 76, 0.194), 0.412881px 11.9336px 29.3037px rgba(77, 76, 76, 0.194), 0.0873403px 2.52442px 7.4963px rgba(77, 76, 76, 0.194) ;
+
+}
+
+.button i{
+    /* font: var(--button-button); */
+    font-size: 1.5rem;
+    color: var(--gray50);
+}
+.button i,.button span{
+    vertical-align: middle;
+}
+
+.button.is-reverse{
+    color: var(--gray50);
+    /* border: 10px solid black; */
+}
+
+.button.is-reverse:hover,
+.button.is-reverse:focus{
+    background-color: var(--gray10);
+}

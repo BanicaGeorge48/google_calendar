@@ -1,0 +1,12 @@
+.calendarStatus{
+    /* border: 1px solid saddlebrown; */
+    display: inline-flex;
+    gap: 1.5rem;
+    align-items: center;
+
+}
+
+.calendarStatus-date {
+    font: var(--subtitle-subtaitle1);
+    /* font-size: 100px; */
+}

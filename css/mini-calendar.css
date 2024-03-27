@@ -1,0 +1,97 @@
+.miniCalendar{
+    --cellSize: 1.75rem;
+    max-inline-size: 12.25rem;
+}
+.miniCalendar-date{
+    font: var(--body1-medium);
+}
+
+.miniCalendar-navigation{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+.miniCalendar-navigation .button{
+    inline-size: 2px;
+    block-size: 2px;
+
+
+}
+
+.miniCalendar-navigation .icon-Iconchevron-left{
+    font-size: 1rem;
+    /* align-items: center; */
+    justify-content: center;
+    display: flex;
+    position: relative;
+    top: -7px;
+    left: -1px;
+}
+.miniCalendar-navigation .icon-Iconchevron-right{
+    font-size: 1rem;
+    /* align-items: center; */
+    justify-content: center;
+    display: flex;
+    position: relative;
+    top: -7px;
+    left: 1px;
+
+
+}
+
+
+.miniCalendar-header{
+    display: grid;
+    grid-template-columns: repeat(7, var(--cellSize));
+    grid-template-rows: var(--cellSize);
+    text-align: center;
+    font: var(--body3-regular);
+    line-height: var(--cellSize);
+    color: var(--gray50);
+    font-size: 13px;
+    /* margin-block-end: .5rem; */
+
+
+}
+
+/* .miniCalendar-navigation a{
+    border: 1px solid saddlebrown;
+    padding: 1px;
+} */
+
+.miniCalendar-status{
+    /* border: 1px solid saddlebrown; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline-start:.25rem ;
+}
+
+.miniCalendar-month{
+    display: grid;
+    grid-template-columns: repeat(7, var(--cellSize));
+    grid-template-rows: repeat(6, var(--cellSize));
+    text-align: center;
+    font: var(--body3-regular);
+    font-size: 12px;
+
+}
+
+.miniCalendar-monthDay{
+    line-height: var(--cellSize);
+    border-radius:50% ;
+    color: var(--gray50);
+}
+
+.miniCalendar-monthDay.is-selected{
+    background-color: var(--blue20);
+    color: var(--white);
+}
+
+.miniCalendar-monthDay.is-inactive{
+    color: var(--gray20);
+}
+
+
